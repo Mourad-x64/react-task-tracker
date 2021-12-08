@@ -12,7 +12,7 @@ const Button = ({ color, text}) => {
 
 Button.defaultProps = {
     color: 'black',
-    text: 'Add'
+    text: 'Ajouter'
 }
 
 export default Button
