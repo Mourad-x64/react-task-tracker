@@ -1,10 +1,12 @@
 
 
-const Button = ({ color, text}) => {
+const Button = ({ color, text, showAddForm }) => {
     return (
         <button
         style={{ backgroundColor: color }} 
-        className='btn'>
+        className='btn'
+        onClick={ () => showAddForm () }
+        >
             {text}
         </button>
     )
